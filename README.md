@@ -1,5 +1,12 @@
-# Rideshare-MLP-Model
-Trained a model using logistics regression and Multi-layer neural netowrk and achieved a good MSE when predicting Rideshares in the New York City Area.
+# 🚗 Rideshare Price Prediction with an MLP
+This project tests how well a simple Multi-Layer Perceptron (MLP) can predict rideshare prices using structured trip data. I wanted to see if a neural network could pick up on nonlinear relationships that linear models like Ridge Regression might miss.
 
-I got my hands on two datasets for ridehsares in New York and ecided to run a machine leanring project on them. The basic idea is to use two ML methods to generate reaosnable predictions and fine-tune the hyperparameters as much as I can to get better outcomes. 
-I hope you enjoy it as much as I did.
+The dataset includes common rideshare features like trip distance, duration, and weather or time-related variables.
+I cleaned, scaled, and encoded the data before training both a Ridge model and an MLP using scikit-learn.
+Everything was built and evaluated inside a Jupyter Notebook for full transparency.
+
+Ridge Regression served as the baseline. It helps establish how far a linear model can go with regularization.
+
+MLP Regressor was used to model nonlinear interactions. I experimented with hidden layers, activation functions, and learning rates to find a setup that balanced bias and variance.
+
+The main goal was to compare interpretability and performance - linear vs neural.

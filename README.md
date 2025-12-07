@@ -1,4 +1,4 @@
-# 🚗 Rideshare Price Prediction with an MLP
+# Rideshare Price Prediction with an MLP
 This project tests how well a simple Multi-Layer Perceptron (MLP) can predict rideshare prices using structured trip data. I wanted to see if a neural network could pick up on nonlinear relationships that linear models like Ridge Regression might miss.
 
 The dataset includes common rideshare features like trip distance, duration, and weather or time-related variables.
